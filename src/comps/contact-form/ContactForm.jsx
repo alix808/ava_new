@@ -75,7 +75,7 @@ const ContactForm = () => {
         </Full>
         <CheckBox type='checkbox'></CheckBox>
         <Full>
-          <Button onClick={onSubmit} style={{ width: '100%' }}>
+          <Button three onClick={onSubmit} style={{ width: '100%' }}>
             Submit
           </Button>
         </Full>

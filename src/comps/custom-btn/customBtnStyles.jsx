@@ -25,12 +25,9 @@ const invertedButtonStyles = css`
 const invertedButtonTwo = css`
   background-color: #357ae8;
   color: white;
-  border: 1px solid #357ae8;
 
   &:hover {
-    background-color: white;
-    color: black;
-    border: 1px solid black;
+    opacity: 0.5;
   }
 `;
 
@@ -54,5 +51,6 @@ export const Button = styled.button`
   border-radius: 4px;
   border: none;
   font-size: 12px;
-  ${getButtonStyles}
+  cursor: pointer;
+  ${getButtonStyles};
 `;
