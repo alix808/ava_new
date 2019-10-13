@@ -1,13 +1,12 @@
 import React from 'react';
+import { FlexItemOne } from './sectionTwoStyles';
 import {
-  ImgOne,
   Container,
   FlexContainer,
-  FlexItemOne,
   FlexItem,
   List
-} from './sectionTwoStyles';
-import { Text, BtnPadding } from '../showcase/showCaseStyles';
+} from '../section-one/sectionOneStyles';
+import { ImgOne, Text, BtnPadding } from '../showcase/showCaseStyles';
 
 import { Button } from '../custom-btn/customBtnStyles';
 import img from '../../assets/shutterstock_1302552622.jpg';

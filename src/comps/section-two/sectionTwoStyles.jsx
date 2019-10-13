@@ -1,27 +1,10 @@
 import styled from 'styled-components';
 
-export const ImgOne = styled.div`
-  background: ${props =>
-    `url(${props.background}) no-repeat ${props.position} / cover`};
-  height: 440px;
-`;
-
-export const Container = styled.div`
-  max-width: 1080px;
-  margin: auto;
-  padding: 4rem 0rem;
-  overflow: hidden;
-`;
-
-export const FlexContainer = styled.div`
-  display: flex;
-`;
-
 export const FlexItemOne = styled.ul`
   flex: 1;
   padding: 0rem 2rem;
   background: #625c58;
-  opacity: 1;
+  opacity: 0.8;
   padding: 1rem 1rem;
   border-radius: 4px;
   min-height: 305px;
@@ -29,28 +12,4 @@ export const FlexItemOne = styled.ul`
   @media (max-width: 1080px) {
     opacity: 0.4;
   }
-`;
-
-export const FlexItem = styled.ul`
-  flex: 1;
-  padding: 0rem 2rem;
-`;
-
-export const Img = styled.div`
-  background: ${props =>
-    `url(${props.background}) no-repeat center center/cover`};
-  height: 310px;
-  border-radius: 4px;
-`;
-
-export const List = styled.ul`
-  list-style-type: none;
-`;
-
-export const BulletPoint = styled.li`
-  font-size: ${props => props.fontSize};
-  color: ${props => props.color};
-  padding: 0.25rem 0rem;
-  list-style-type: square;
-  margin-left: 1rem;
 `;

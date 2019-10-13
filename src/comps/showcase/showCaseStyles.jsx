@@ -21,7 +21,7 @@ export const Item = styled.div`
 export const ItemMiddle = styled.div`
   align-items: left;
   width: 1080px;
-  opacity: 0.8;
+  opacity: 1;
   border-radius: 4px;
   padding: 2rem 2rem;
 `;

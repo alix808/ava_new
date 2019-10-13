@@ -2,12 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import Showcase from '../showcase/Showcase';
-import Spinner from '../spinner/Spinner';
+import PlaceHolder from '../place-holder/PlaceHolder';
 
 const Provider = ({ user }) => {
   const { loading, position, banner } = user;
 
-  if (loading) return null;
+  if (loading) return <PlaceHolder />;
 
   return (
     <div>
