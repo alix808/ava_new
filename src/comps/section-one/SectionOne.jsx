@@ -41,7 +41,7 @@ const SectionOne = () => {
               </BulletPoint>
             ))}
             <BtnPadding>
-              <Button>Learn more</Button>
+              <Button three>Learn more</Button>
             </BtnPadding>
           </List>
         </FlexItem>

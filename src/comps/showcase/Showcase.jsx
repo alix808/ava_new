@@ -57,7 +57,7 @@ const Showcase = ({ img, user, updateImg }) => {
               {banner[0].Subtitle}
             </Text>
             <BtnPadding>
-              <Button>Contact Us</Button>
+              <Button two>Contact Us</Button>
             </BtnPadding>
           </List>
         </ItemMiddle>
